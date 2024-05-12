@@ -1,0 +1,200 @@
+<svg width="716" height="571" viewBox="0 0 537 428.25" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="translate(154.62247010418434,407.21393143905914) scale(0.4594793419988163)">
+<polygon fill="white" stroke="none" points="-4,4 -4,-890.4 252.54,-890.4 252.54,4 -4,4"/>
+<!-- a -->
+<g id="node1" class="node">
+<title>day_start</title>
+<ellipse fill="rgb(255, 0, 0)" stroke="black" cx="152.04" cy="-868.4" rx="46.43" ry="18"/>
+<text text-anchor="middle" x="152.04" y="-864.2" font-family="Times,serif" font-size="14.00">day_start</text>
+</g>
+<!-- b -->
+
+<!-- a&#45;&gt;b -->
+<g id="node5" class="node">
+<title>eat</title>
+<ellipse fill="rgb(128, 128, 128)" stroke="black" cx="189.04" cy="-779.6" rx="27" ry="18"/>
+<text text-anchor="middle" x="189.04" y="-775.4" font-family="Times,serif" font-size="14.00">eat</text>
+</g><g id="edge1" class="edge">
+<title>day_start-&gt;sleep_more</title>
+<path fill="none" stroke="#1f78b4" d="M132.13,-851.92C126.52,-846.42 121.13,-839.75 118.06,-832.4 115.11,-825.32 114.01,-817.2 113.86,-809.53"/>
+<polygon fill="#a6cee3" stroke="#1f78b4" points="117.36,-809.68 114.22,-799.56 110.36,-809.43 117.36,-809.68"/>
+<text text-anchor="middle" x="147.03" y="-819.8" font-family="Times,serif" font-size="14.00">overslept!</text>
+</g>
+<!-- c -->
+
+<!-- a&#45;&gt;c -->
+<!-- sleep&#45;&gt;eat -->
+<g id="edge2" class="edge">
+<title>day_start-&gt;eat</title>
+<path fill="none" stroke="black" d="M163.78,-850.84C167.43,-845.18 171.22,-838.69 174.04,-832.4 177.39,-824.94 180.2,-816.54 182.45,-808.71"/>
+<polygon fill="black" stroke="black" points="185.77,-809.85 184.95,-799.28 179,-808.05 185.77,-809.85"/>
+</g>
+<!-- b&#45;&gt;c -->
+<g id="node3" class="node">
+<title>sleep_more</title>
+<polygon fill="#ff7f0e" stroke="black" points="144.04,-797.6 90.04,-797.6 90.04,-761.6 144.04,-761.6 144.04,-797.6"/>
+<text text-anchor="middle" x="117.04" y="-775.4" font-family="Times,serif" font-size="14.00">sleep</text>
+</g><g id="node4" class="node">
+<title>sleep_even_more</title>
+<polygon fill="#ff7f0e" stroke="black" points="88.04,-708.8 34.04,-708.8 34.04,-672.8 88.04,-672.8 88.04,-708.8"/>
+<text text-anchor="middle" x="61.04" y="-686.6" font-family="Times,serif" font-size="14.00">sleep</text>
+</g>
+<!-- study -->
+<g id="node9" class="node">
+<title>study_in_ucu</title>
+<ellipse fill="#1f77b4" stroke="black" cx="169.04" cy="-690.8" rx="63.07" ry="18"/>
+<text text-anchor="middle" x="169.04" y="-686.6" font-family="Times,serif" font-size="14.00">study_in_ucu</text>
+</g><!-- eat&#45;&gt;study_in_ucu -->
+<g id="edge3" class="edge">
+<title>eat-&gt;study_in_ucu</title>
+<path fill="none" stroke="rgb(0, 0, 0)" d="M185.09,-761.45C182.4,-749.76 178.77,-733.99 175.64,-720.42"/>
+<polygon fill="black" stroke="black" points="179.05,-719.64 173.4,-710.69 172.23,-721.22 179.05,-719.64"/>
+</g><g id="edge4" class="edge">
+<title>sleep_more-&gt;sleep_even_more</title>
+<path fill="none" stroke="#1f78b4" d="M89.74,-769.59C77.7,-764.09 64.73,-755.74 57.8,-743.6 53.84,-736.66 53.01,-728.31 53.62,-720.36"/>
+<polygon fill="#a6cee3" stroke="#1f78b4" points="57.04,-721.13 55.12,-710.71 50.13,-720.06 57.04,-721.13"/>
+<text text-anchor="middle" x="102.17" y="-731" font-family="Times,serif" font-size="14.00">overslept more!</text>
+</g><g id="node15" class="node">
+<title>day_end</title>
+<ellipse fill="rgb(255, 0, 0)" stroke="black" cx="119.04" cy="-18" rx="43.75" ry="18"/>
+<text text-anchor="middle" x="119.04" y="-13.8" font-family="Times,serif" font-size="14.00">day_end</text>
+</g>
+<!-- relax_at_home -->
+<g id="edge6" class="edge">
+<title>sleep_even_more-&gt;eat_later</title>
+<path fill="none" stroke="rgb(0, 0, 0)" d="M61.53,-672.61C61.74,-664.94 62,-655.69 62.25,-647.04"/>
+<polygon fill="black" stroke="black" points="65.74,-647.44 62.52,-637.34 58.74,-647.24 65.74,-647.44"/>
+</g>
+<!-- relax_at_home -->
+<!-- eat_and_study_at_home&#45;&gt;re -->
+<!-- eat_and_study_at_home&#45;&gt;relax_at_home -->
+<g id="edge8" class="edge">
+<title>study_in_ucu-&gt;relax_at_home</title>
+<path fill="none" stroke="rgb(0, 0, 0)" d="M169.08,-672.68C168.67,-642.47 165.72,-578.04 149.04,-526.8 145.85,-516.98 140.81,-506.9 135.77,-498.16"/>
+<polygon fill="black" stroke="black" points="138.93,-496.62 130.75,-489.89 132.95,-500.25 138.93,-496.62"/>
+</g><g id="edge7" class="edge">
+<title>eat_later-&gt;study_at_home</title>
+<path fill="none" stroke="rgb(0, 0, 0)" d="M64.74,-599.61C65.49,-591.94 66.41,-582.69 67.26,-574.04"/>
+<polygon fill="black" stroke="black" points="70.72,-574.63 68.22,-564.34 63.75,-573.94 70.72,-574.63"/>
+</g>
+<g id="node12" class="node">
+<title>relax_at_home</title>
+<ellipse fill="rgb(0, 128, 0)" stroke="black" cx="119.04" cy="-471.8" rx="30.34" ry="18"/>
+<text text-anchor="middle" x="119.04" y="-467.6" font-family="Times,serif" font-size="14.00">relax</text>
+</g><!-- day_srtat -->
+<g id="edge17" class="edge">
+<title>sleep-&gt;day_end</title>
+<path fill="none" stroke="black" d="M119.04,-72.81C119.04,-65.23 119.04,-56.1 119.04,-47.54"/>
+<polygon fill="black" stroke="black" points="122.54,-47.54 119.04,-37.54 115.54,-47.54 122.54,-47.54"/>
+</g>
+<g id="edge5" class="edge">
+<title>sleep_more-&gt;study_in_ucu</title>
+<path fill="none" stroke="rgb(0, 0, 0)" d="M136.03,-761.24C141.07,-755.94 146.18,-749.85 150.04,-743.6 154.56,-736.29 158.25,-727.74 161.13,-719.72"/>
+<polygon fill="black" stroke="black" points="164.41,-720.95 164.2,-710.36 157.76,-718.77 164.41,-720.95"/>
+</g>
+<!-- sleep -->
+<g id="node6" class="node">
+<title>eat_later</title>
+<ellipse fill="rgb(128, 128, 128)" stroke="black" cx="63.04" cy="-617.8" rx="27" ry="18"/>
+<text text-anchor="middle" x="63.04" y="-613.6" font-family="Times,serif" font-size="14.00">eat</text>
+</g>
+<!-- sleep_emore -->
+
+
+<!-- e -->
+
+<!-- have -->
+<g id="node8" class="node">
+<title>have_lunch</title>
+<ellipse fill="rgb(128, 128, 128)" stroke="black" cx="119.04" cy="-398.8" rx="27" ry="18"/>
+<text text-anchor="middle" x="119.04" y="-394.6" font-family="Times,serif" font-size="14.00">eat</text>
+</g><g id="node10" class="node">
+<title>study_at_home</title>
+<ellipse fill="#1f77b4" stroke="black" cx="70.04" cy="-544.8" rx="70.04" ry="18"/>
+<text text-anchor="middle" x="70.04" y="-540.6" font-family="Times,serif" font-size="14.00">study_at_home</text>
+</g>
+<!-- relax_at_home&#45;&gt;р -->
+<!-- relax_at_home&#45;&gt;have_lunch -->
+
+<!-- relax_at_home&#45;&gt;have_lunch -->
+<g id="edge9" class="edge">
+<title>relax_at_home-&gt;have_lunch</title>
+<path fill="none" stroke="rgb(0, 0, 0)" d="M119.04,-453.61C119.04,-446.03 119.04,-436.9 119.04,-428.34"/>
+<polygon fill="black" stroke="black" points="122.54,-428.34 119.04,-418.34 115.54,-428.34 122.54,-428.34"/>
+</g><g id="edge11" class="edge">
+<title>have_lunch-&gt;go_for_a_walk</title>
+<path fill="none" stroke="rgb(0, 0, 0)" d="M135.4,-384.27C142.07,-378.18 149.5,-370.62 155.04,-362.8 160.25,-355.46 164.78,-346.82 168.46,-338.71"/>
+<polygon fill="black" stroke="black" points="171.65,-340.14 172.34,-329.57 165.21,-337.4 171.65,-340.14"/>
+</g>
+<!-- study_at_home&#45;&gt;relax_at_home -->
+<g id="edge10" class="edge">
+<title>study_at_home-&gt;relax_at_home</title>
+<path fill="none" stroke="rgb(0, 0, 0)" d="M81.91,-526.61C87.79,-518.08 95.02,-507.61 101.53,-498.18"/>
+<polygon fill="black" stroke="black" points="104.3,-500.32 107.1,-490.1 98.54,-496.34 104.3,-500.32"/>
+</g><g id="node13" class="node">
+<title>relax</title>
+<ellipse fill="rgb(0, 128, 0)" stroke="black" cx="61.04" cy="-310" rx="30.34" ry="18"/>
+<text text-anchor="middle" x="61.04" y="-305.8" font-family="Times,serif" font-size="14.00">relax</text>
+</g>
+<!-- study_at_ucu -->
+<g id="edge12" class="edge">
+<title>have_lunch-&gt;relax</title>
+<path fill="none" stroke="#1f78b4" d="M105.33,-383.01C100.04,-376.96 94.12,-369.76 89.34,-362.8 84.01,-355.05 78.87,-346.2 74.46,-338.03"/>
+<polygon fill="#a6cee3" stroke="#1f78b4" points="77.57,-336.42 69.84,-329.18 71.37,-339.66 77.57,-336.42"/>
+<text text-anchor="middle" x="122.9" y="-350.2" font-family="Times,serif" font-size="14.00">it`s raining!</text>
+</g>
+<!-- go -->
+
+<g id="node14" class="node">
+<title>go_for_a_walk</title>
+<ellipse fill="rgb(255, 0, 255)" stroke="black" cx="179.04" cy="-310" rx="69.5" ry="18"/>
+<text text-anchor="middle" x="179.04" y="-305.8" font-family="Times,serif" font-size="14.00">go_for_a_walk</text>
+</g>
+
+<!-- s -->
+<g id="node11" class="node">
+<title>study_last</title>
+<ellipse fill="rgb(31, 119, 180)" stroke="black" cx="119.04" cy="-237" rx="70.04" ry="18"/>
+<text text-anchor="middle" x="119.04" y="-232.8" font-family="Times,serif" font-size="14.00">study_at_home</text>
+</g>
+<!-- relax&#45;&gt;s -->
+<!-- relax&#45;&gt;study_last -->
+<g id="edge13" class="edge">
+<title>relax-&gt;study_last</title>
+<path fill="none" stroke="black" d="M73.92,-293.24C81.02,-284.55 90.02,-273.53 98.1,-263.63"/>
+<polygon fill="black" stroke="black" points="100.62,-266.08 104.24,-256.12 95.2,-261.66 100.62,-266.08"/>
+</g>
+<!-- g -->
+
+<!-- go_for_a_walk&#45;&gt;study_last -->
+<g id="edge14" class="edge">
+<title>go_for_a_walk-&gt;study_last</title>
+<path fill="none" stroke="black" d="M164.82,-292.17C157.58,-283.6 148.61,-272.99 140.54,-263.44"/>
+<polygon fill="black" stroke="black" points="143.27,-261.24 134.14,-255.86 137.92,-265.76 143.27,-261.24"/>
+</g>
+<!-- ea -->
+<g id="node7" class="node">
+<title>eat_last</title>
+<ellipse fill="rgb(128, 128, 128)" stroke="black" cx="119.04" cy="-164" rx="27" ry="18"/>
+<text text-anchor="middle" x="119.04" y="-159.8" font-family="Times,serif" font-size="14.00">eat</text>
+</g>
+<!-- study_last&#45;&gt;ea -->
+<g id="edge15" class="edge">
+<title>study_last-&gt;eat_last</title>
+<path fill="none" stroke="black" d="M119.04,-218.81C119.04,-211.23 119.04,-202.1 119.04,-193.54"/>
+<polygon fill="black" stroke="black" points="122.54,-193.54 119.04,-183.54 115.54,-193.54 122.54,-193.54"/>
+</g>
+<!-- sle -->
+<g id="node2" class="node">
+<title>sleep</title>
+<polygon fill="#ff7f0e" stroke="black" points="146.04,-109 92.04,-109 92.04,-73 146.04,-73 146.04,-109"/>
+<text text-anchor="middle" x="119.04" y="-86.8" font-family="Times,serif" font-size="14.00">sleep</text>
+</g>
+<g id="edge16" class="edge">
+<title>eat_last-&gt;sleep</title>
+<path fill="none" stroke="black" d="M119.04,-145.81C119.04,-138.23 119.04,-129.1 119.04,-120.54"/>
+<polygon fill="black" stroke="black" points="122.54,-120.54 119.04,-110.54 115.54,-120.54 122.54,-120.54"/>
+</g>
+
+</g>
+</svg>
